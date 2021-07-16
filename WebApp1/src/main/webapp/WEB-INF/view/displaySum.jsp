@@ -7,13 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- Welcome to HomePage 
- 
-  <form action="doProcessForm" method="post">
-  	Username <input type="text" name="username"><br/>
-  	Email <input type="text" name="email"><br/>
-  	
-  	<input type="submit">
-  </form>
+	${task} of ${input1} & ${input2} is ${result}
 </body>
 </html>

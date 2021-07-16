@@ -7,13 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
- Welcome to HomePage 
- 
-  <form action="doProcessForm" method="post">
-  	Username <input type="text" name="username"><br/>
-  	Email <input type="text" name="email"><br/>
-  	
-  	<input type="submit">
-  </form>
+	<form action="doAddition" method="post">
+		Number 1 <input type="text" name="number1"><br/>
+		Number 2 <input type="text" name="number2"><br/>
+		<input type="submit" value="Addition">
+	
+	</form>
 </body>
 </html>
